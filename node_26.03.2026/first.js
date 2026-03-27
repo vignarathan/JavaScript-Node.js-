@@ -5,14 +5,15 @@ let a;
 console.log(a);
 const y=20;
 console.log(y);
-//y=30;
-console.log(y);
+//let a=; can't declare a variable that already declared with let
+//y=30; can't assign a value again for a variable that declared with const 
+//console.log(y);
 console.log(typeof x);
 let s="vignarathan";
 console.log(typeof s);
 let p;
 console.log(typeof p);
-let bool=true
+let bool=true;
 console.log(typeof bool);
 let data=null;
 console.log(typeof data);

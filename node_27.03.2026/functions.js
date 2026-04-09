@@ -34,7 +34,6 @@ console.log(fullname);*/
 //default parameter
 function getfullname(fname="vignarathan",lname="sivalingam"){
     return `my full name is ${fname} ${lname}`
-
 }
 let fullname=getfullname();
 console.log(fullname);

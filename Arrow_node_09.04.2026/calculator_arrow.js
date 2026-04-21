@@ -1,5 +1,4 @@
 let calc=(num1,num2,operator)=>{
-
     if(operator==="+"){
         return num1+num2;
     }else if(operator==="-"){
@@ -17,7 +16,6 @@ let calc=(num1,num2,operator)=>{
     }else{
         return "invalid number or operator";
     }       
-
 }
 let answer=calc(7,4,"5");
 console.log(answer);
